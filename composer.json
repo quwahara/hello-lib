@@ -1,0 +1,19 @@
+{
+    "name": "quwahara/hello-lib",
+    "description": "Tutorial for a composer library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mitsuaki kuwahara",
+            "email": "quwahara@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "quwahara\\HelloLib\\": "src/"
+        }
+    }
+}
